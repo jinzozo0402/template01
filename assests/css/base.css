@@ -1,0 +1,191 @@
+/*------------------------------------*\
+  #SPACING: These rules are for spacing. The classes are named using the format {property}{sides}-{size}
+\*------------------------------------*/
+/**
+* Use:  <div class="mgn-t mgn-b mgn-r mgn-l" style="--mgn-t: 4; --mgn-b: 4; --mgn-r: 4; --mgn-l: 4">Lorem Ipsum</div>
+*/
+:root {
+    --margin-base: 16;
+    --padding-base: 16;
+}
+.mgn {
+    margin: calc(var(--mgn) / var(--margin-base) * 1rem);
+}
+.mgn-t {
+    margin-top: calc(var(--mgn-t) / var(--margin-base) * 1rem);
+}
+.mgn-b {
+    margin-bottom: calc(var(--mgn-b) / var(--margin-base) * 1rem);
+}
+.mgn-l {
+    margin-left: calc(var(--mgn-l) / var(--margin-base) * 1rem);
+}
+.mgn-r {
+    margin-right: calc(var(--mgn-r) / var(--margin-base) * 1rem);
+}
+.mgn-auto {
+    margin: auto;
+}
+.mgn-y-auto {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.mgn-x-auto {
+    margin-left: auto;
+    margin-right: auto;
+}
+/**
+* Use:  <div class="pdg-t pdg-b pdg-r pdg-l" ste="--pdg-t: 4; --pdg-b: 4; --pdg-r: 4; --pdg-l: 4">Lorem Ipsum</div>
+*/
+.pdg {
+    padding: calc(var(--pdg) / var(--padding-base) * 1rem);
+}
+.pdg-t {
+    padding-top: calc(var(--pdg-t) / var(--padding-base) * 1rem);
+}
+.pdg-b {
+    padding-bottom: calc(var(--pdg-b) / var(--padding-base) * 1rem);
+}
+.pdg-l {
+    padding-left: calc(var(--pdg-l) / var(--padding-base) * 1rem);
+}
+.pdg-r {
+    padding-right: calc(var(--pdg-r) / var(--padding-base) * 1rem);
+}
+.pdg-auto {
+    padding: auto;
+}
+.pdg-y-auto {
+    padding-top: auto;
+    padding-bottom: auto;
+}
+.pdg-x-auto {
+    padding-left: auto;
+    padding-right: auto;
+}
+/*------------------------------------*\
+  #DISPLAY: Helper for all Display properties
+\*------------------------------------*/
+.dpy {
+    display: var(--dpy);
+}
+/*------------------------------------*\
+  #WIDTH HEIGHT: Helper for all Width & Height properties
+\*------------------------------------*/
+.mwh {
+    max-width: calc(var(--mwh) * 1px);
+}
+.mh {
+    max-height: calc(var(--mh) * 1px);
+}
+.wh {
+    width: calc(var(--wh) * 1px);
+}
+.ht {
+    height: calc(var(--ht) * 1px);
+}
+.ht-auto {
+    height: auto;
+}
+.wh-auto {
+    width: auto;
+}
+.wf {
+    width: 100%;
+}
+.hf {
+    height: 100%;
+}
+/*------------------------------------*\
+  #FLEXBOX: Helper for all Flexbox properties
+\*------------------------------------*/
+.flx-odr {
+    order: var(--flx-odr);
+}
+.flx-fill {
+    flex: 1 1 auto;
+}
+.flx-drtn {
+    flex-direction: var(--flx-drtn);
+}
+.jtfy-ctn {
+    justify-content: var(--jtfy-ctn);
+}
+.aln-its {
+    align-items: var(--aln-its);
+}
+.aln-sf {
+    align-self: var(--aln-sf);
+}
+.aln-ct {
+    align-content: var(--aln-ct);
+}
+.flx-grw {
+    flex-grow: var(--flx-grw);
+}
+.flx-sk {
+    flex-shrink: var(--flx-sk);
+}
+.flx-wp {
+    flex-wrap: var(--flx-wp);
+}
+.gp {
+    gap: calc(var(--gp) * 1px);
+}
+/*------------------------------------*\
+  #FLOAT: Helper for all Float properties
+\*------------------------------------*/
+.flt {
+    float: var(--flt);
+}
+/*------------------------------------*\
+  #OPACITY: Helper for all Opacity properties
+\*------------------------------------*/
+.opcy {
+    opacity: calc(var(--opcy) / 100);
+}
+/*------------------------------------*\
+  #OVERFLOW: Helper for all Overflow properties
+\*------------------------------------*/
+.ovfw {
+    overflow: var(--ovfw);
+}
+.ovfw-x {
+    overflow-x: var(--ovfw-x);
+}
+.ovfw-y {
+    overflow-y: var(--ovfw-y);
+}
+/*------------------------------------*\
+  #POSITION: Helper for all Overflow properties
+\*------------------------------------*/
+.ojf-cr {
+    object-fit: cover;
+}
+.csr {
+    cursor: var(--csr);
+}
+.clr {
+    color: var(--clr);
+}
+.ft-se {
+    font-size: calc(var(--ft-se) * 1px);
+}
+.ft-wt {
+    font-weight: calc(var(--ft-wt));
+}
+.ln-ht {
+    line-height: calc(var(--ln-ht) * 1px);
+}
+.tdcrtn {
+    text-decoration: var(--tdcrtn);
+}
+.bdr-rdus {
+    border-radius: calc(var(--bdr-rdus) * 1px);
+}
+.bgrd {
+    background: var(--bgrd);
+}
+.bdr-n {
+    border: none;
+}

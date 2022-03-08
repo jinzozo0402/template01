@@ -1,0 +1,75 @@
+/* BANNER TEXT */
+.banner-text {
+    text-align: center;
+    max-width: 523px;
+    width: 100%;
+    margin: 0 auto;
+}
+.title {
+    font-family:" Work Sans", sans-serif;
+    font-size: 30px;
+    line-height: 35px; 
+    color: #7879F1;
+}
+.description {
+    font-family: "Epilogue", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 49px;
+    text-align: center;
+    color: #000000;
+}
+
+/* BANNER */
+.banner {
+    background: #5D5FEF;
+    border-radius: 30px;
+    display: grid;
+    grid-template-columns: 55% 45%;
+    position: relative;
+}
+.content {
+    color: #fff;
+    font-family: 'Epilogue', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 76px;
+    line-height: 78px;
+    margin: 99px 0 0 53px;
+    grid-column: 1/2;
+}
+.image--right {
+    position: absolute;
+    right: 0;
+    margin: 64px 0 74px;
+}
+.icon--payment {
+    display: flex;
+    gap: 21px;
+    grid-column: 1/2;
+    margin: 35px 0 53px 60px;
+}
+.icon--store {
+    object-fit: contain;
+    max-width: 273px;
+    width: 100%;
+    height: auto;
+}
+
+/* LIST CONTENT */
+.list-content {
+    display: flex;
+    justify-content: space-between;
+}
+.item-content {
+    max-width: 318px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/* CUSTOMER COMMENT */
+.customer-comment {
+    background: #D8D8FF;
+}
