@@ -207,3 +207,6 @@
 .btm {
     bottom: var(--btm);
 }
+.ft-fmly {
+    font-family: var(--ft-fmly), sans-serif;
+}
