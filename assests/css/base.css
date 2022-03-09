@@ -189,3 +189,6 @@
 .bdr-n {
     border: none;
 }
+.taln {
+    text-align: var(--taln);
+}

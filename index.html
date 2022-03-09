@@ -9,17 +9,18 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link rel="stylesheet" href="./assests/css/reset.css" />
     <link rel="stylesheet" href="./assests/css/base.css" />
-    <link rel="stylesheet" href="./assests/css/style.css" />
   </head>
   <body>
     <div class="container">
       <div
-        class="header mgn-x-auto mwh dpy jtfy-ctn aln-its"
+        class="header mgn-x-auto mwh dpy jtfy-ctn aln-its mgn-t mgn-b"
         style="
           --mwh: 1600;
           --dpy: flex;
           --jtfy-ctn: space-between;
           --aln-its: center;
+          --mgn-t: 40;
+          --mgn-b: 40;
         "
       >
         <div class="mwh" style="--mwh: 200px">
@@ -98,8 +99,11 @@
       </div>
       <div class="main">
         <link rel="stylesheet" href="./assests/css/main.css" />
-        <div class="section banner mgn-x-auto">
-          <div class="content">
+        <div
+          class="banner mgn-x-auto mgn-t mgn-b mwh"
+          style="--mgn-t: 40; --mgn-b: 40; --mwh: 1600"
+        >
+          <div class="content ft-wt ft-se ln-ht">
             <p>Earning rewards has never been so easy</p>
           </div>
 
@@ -119,18 +123,39 @@
             <img src="./assests/images/iPhone 12 Pro Max.png" alt="" />
           </div>
         </div>
-        <div class="section banner-text mgn-x-auto">
-          <p class="title">How It Works</p>
-          <p class="description">What our customers say about us ?</p>
+        <div
+          class="mgn-x-auto taln mwh wf mgn-t mgn-b"
+          style="--taln: center; --mwh: 523; --mgn-t: 40; --mgn-b: 40"
+        >
+          <p
+            class="ft-wt ft-se ln-ht clr"
+            style="--ft-se: 32; ln-ht: 36; --clr: #7879f1; ft-wt: 700"
+          >
+            How It Works
+          </p>
+          <p
+            class="ft-se ft-wt taln ln-ht"
+            style="--ft-se: 48; --ft-wt: 700; --ln-ht: 52; taln: center"
+          >
+            What our customers say about us ?
+          </p>
         </div>
-        <div class="section list-content mgn-x-auto">
-          <div class="item-content">
+        <div class="mgn-x-auto mgn-t mgn-b dpy jtfy-ctn mwh" style="--mwh:1600; --mgn-t: 40; --mgn-b: 40; --dpy: flex; --jtfy-ctn: space-between;">
+          <div class="mwh dpy flx-wp jtfy-ctn" style="--mwh: 318; --dpy:flex; --flx-wp: wrap; --jtfy-ctn: center;">
             <div class="content-image">
               <img src="./assests/images/conifer-1106.png" alt="item1" />
             </div>
             <div class="content-description">
-              <p>Track your savings</p>
-              <p>Track your savings and build better spending habbits</p>
+              <p
+                class="ft-se ft-wt ln-ht"
+                style="--ft-se: 24; --ln-ht: 41; --ft-wt: 700"
+              >
+                Track your
+                <span class="clr" style="--clr: #d8d8ff">savings</span>
+              </p>
+              <p class="ft-se ln-ht" style="--ft-se: 24; --ln-ht: 28">
+                Track your savings and build better spending habbits
+              </p>
             </div>
           </div>
           <div class="item-content">
@@ -141,8 +166,16 @@
               />
             </div>
             <div class="content-description">
-              <p>Accomplish your goals</p>
-              <p>Accomplish your savings goals</p>
+              <p
+                class="ft-se ft-wt ln-ht"
+                style="--ft-se: 24; --ln-ht: 41; --ft-wt: 700"
+              >
+                Accomplish your
+                <span class="clr" style="--clr: #d8d8ff">goals</span>
+              </p>
+              <p class="ft-se ln-ht" style="--ft-se: 24; --ln-ht: 28">
+                Accomplish your savings goals
+              </p>
             </div>
           </div>
           <div class="item-content">
@@ -150,41 +183,127 @@
               <img src="./assests/images/conifer-1079.png" alt="item1" />
             </div>
             <div class="content-description">
-              <p>Redeem rewards</p>
-              <p>Redeem rewards when you accomplish your savings goals.</p>
+              <p
+                class="ft-se ft-wt ln-ht"
+                style="--ft-se: 24; --ln-ht: 41; --ft-wt: 700"
+              >
+                Redeem <span class="clr" style="--clr: #d8d8ff">rewards</span>
+              </p>
+              <p class="ft-se ln-ht" style="--ft-se: 24; --ln-ht: 28">
+                Redeem rewards when you accomplish your savings goals.
+              </p>
             </div>
           </div>
         </div>
-        <div class="section banner-text mgn-x-auto">
-          <p class="title">WHAT THEY SAY</p>
-          <p class="description">What our customers say about us ?</p>
+        <div
+          class="mgn-x-auto taln mwh wf mgn-t mgn-b"
+          style="--taln: center; --mwh: 523; --mgn-t: 40; --mgn-b: 40"
+        >
+          <p
+            class="ft-wt ft-se ln-ht clr"
+            style="--ft-se: 32; ln-ht: 36; --clr: #7879f1; ft-wt: 700"
+          >
+            WHAT THEY SAY
+          </p>
+          <p
+            class="ft-se ft-wt taln ln-ht"
+            style="--ft-se: 48; --ft-wt: 700; --ln-ht: 52; taln: center"
+          >
+            What our customers say about us ?
+          </p>
         </div>
-        <div class="customer-comment mgn-x-auto">
-          <div class="comment-content">
-            <p>
+        <div class="customer-comment mgn-x-auto bgrd" style="--bgrd: #d8d8ff">
+          <div
+            class="comment-content dpy jtfy-ctn aln-its flx-drtn gp"
+            style="
+              --dpy: flex;
+              --flx-drtn: column;
+              --jtfy-ctn: center;
+              --aln-its: center;
+              --gp: 24;
+            "
+          >
+            <p
+              class="ft-se ft-wt ln-ht mwh mgn-t"
+              style="--ft-se: 44; --ft-wt: 700; --ln-ht: 52; --mwh: 681; --mgn-t: 132;"
+            >
               It was hard to discipline myself in the past. The rewards
               deffinetly help me achieve my goals.
             </p>
-            <p>~ Marry from Canada</p>
-          </div>
-          <div class="comment-func">
-            <div class="btn-prev">
-              <img src="./assests/images/icon-prev.png" alt="icon prev" />
-              <p>Prev</p>
-            </div>
-            <div class="btn-next">
-              <p>Next</p>
-              <img src="./assests/images/icon-next.png" alt="icon next" />
+            <p
+              class="ft-se ft-wt ln-ht"
+              style="--ft-se: 32; --ft-wt: 700; --ln-ht: 36"
+            >
+              ~ Marry from Canada
+            </p>
+            <div
+              class="mgn-b dpy jtfy-ctn gp"
+              style="--mgn-b: 32; --dpy: flex; --jtfy-ctn: spance-between; --gp: 500"
+            >
+              <div class="dpy aln-its gp"
+              style="--dpy: flex; --aln-its: center; --gp: 16">
+                <img src="./assests/images/icon-prev.png" alt="icon prev" />
+                <span>Prev</span>
+              </div>
+              <div class="dpy aln-its gp"
+              style="--dpy: flex; --aln-its: center; --gp: 16">
+                <span>Next</span>
+                <img src="./assests/images/icon-next.png" alt="icon next" />
+              </div>
             </div>
           </div>
         </div>
-        <div class="footer">
-          <div class="content">
-            <p>Join our mission to empower women to save</p>
+        <div
+          class="footer bgrd mwh dpy mgn-x-auto aln-its jtfy-ctn mgn-t mgn-b bdr-rdus"
+          style="
+            --bgrd: #a5a6f6;
+            --mwh: 1600;
+            --dpy: flex;
+            --aln-its: center;
+            --jtfy-ctn: space-between;
+            --mgn-t: 40;
+            --mgn-b: 40;
+            --bdr-rdus: 12;
+          "
+        >
+          <div
+            class="mgn-l mgn-t mgn-b"
+            style="--mgn-t: 60; --mgn-l: 60; --mgn-b: 64"
+          >
+            <p
+              class="ft-se ft-wt ln-ht clr mwh"
+              style="
+                --ft-se: 48;
+                --ft-wt: 700;
+                --ln-ht: 52;
+                --clr: #fff;
+                --mwh: 641;
+              "
+            >
+              Join our mission to empower women to save
+            </p>
           </div>
-          <div class="footer-image">
-            <img src="./assests/images/Frame 325.png" alt="" />
-            <img src="./assests/images/Frame 326.png" alt="" />
+          <div
+            class="icon-payment footer-image dpy flx-drtn gp mgn-t mgn-b mgn-r"
+            style="
+              --dpy: flex;
+              --flx-drtn: column;
+              --gp: 24;
+              --mgn-t: 36;
+              --mgn-b: 36;
+              --mgn-r: 44;
+            "
+          >
+            <img
+              class="icon--store"
+              src="./assests/images/Frame 325.png"
+              alt=""
+            />
+            <img
+              class="icon--store"
+              src="./assests/images/Frame 326.png"
+              alt=""
+            />
           </div>
         </div>
       </div>
