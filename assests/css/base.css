@@ -159,8 +159,8 @@
 /*------------------------------------*\
   #POSITION: Helper for all Overflow properties
 \*------------------------------------*/
-.ojf-cr {
-    object-fit: cover;
+.ojt-ft {
+    object-fit: var(--ojf-cr);
 }
 .csr {
     cursor: var(--csr);
@@ -191,4 +191,19 @@
 }
 .taln {
     text-align: var(--taln);
+}
+.pstn {
+    position: var(--pstn);
+}
+.rt {
+    right: var(--rt);
+}
+.lt {
+    left: var(--lt);
+}
+.tp {
+    top: var(--tp);
+}
+.btm {
+    bottom: var(--btm);
 }
